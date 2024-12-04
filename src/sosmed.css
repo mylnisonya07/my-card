@@ -1,0 +1,30 @@
+/* ini styling untuk icon sosmed yang ada di konten get in touch */
+.sosmed-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem; 
+  margin-bottom: 2rem; 
+}
+
+.sosmed-link {
+  color: #4b5563; 
+  font-size: 10rem; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.sosmed-link:hover {
+  color: #ec4899; 
+  transform: scale(1.2); 
+  box-shadow: 0 0 15px rgba(255, 0, 144, 0.6); 
+}
+
+@media screen and (max-width: 768px) {
+  .sosmed-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .sosmed-link {
+    font-size: 5rem;
+  }
+}

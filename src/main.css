@@ -1,0 +1,175 @@
+/* ini styling (main/utama) */
+@font-face {
+  font-family: "AbiyuChan";
+  src: url("assets/fonts/AbiyuChan-mLnP5.ttf") format("truetype");
+}
+
+.font-nama {
+  font-family: "Abiyu Chan", sans-serif;
+}
+
+.scale-container {
+  transform: scale(0.9);
+  transform-origin: top center;
+  width: 100%;
+}
+
+.border-shadow {
+  border: 5px solid rgb(251, 207, 232);
+  border-radius: 10px;
+  box-shadow: 0 8px 50px rgba(255, 0, 144, 0.6);
+}
+
+.custom-bg {
+  background: linear-gradient(to right, #fef1de 30%, #ffb6d4 70%);
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0rem;
+  min-height: auto;
+}
+
+body {
+  padding: 0.5rem;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.image-container {
+  position: relative;
+  perspective: 1000px;
+}
+
+.hover-image {
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+.hover-image:hover {
+  transform: rotateY(360deg) scale(4.05);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  text-align: center;
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+footer {
+  background-color: #fbcfe8;
+  text-align: center;
+  padding: 1rem 0;
+  color: #4a4a4a;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/* Responsif (big) */
+@media screen and (min-width: 768px) {
+  .custom-bg {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .text-pink-600 {
+    font-size: 3rem;
+  }
+
+  .sosmed-link {
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+
+  .work-with-me-link {
+    font-size: 1.25rem;
+    padding: 0.75rem 3rem;
+  }
+}
+
+/* Responsif (small) */
+@media screen and (max-width: 768px) {
+  .font-nama.atas {
+    position: fixed;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    z-index: 10;
+  }
+
+  .judul {
+    margin-top: 4rem;
+  }
+
+  .scale-container {
+    transform: scale(0.8);
+  }
+  .custom-bg {
+    padding: 2rem 1rem;
+    max-width: 100%;
+  }
+
+  .sosmed-link {
+    font-size: 3rem;
+  }
+
+  .text-4xl {
+    font-size: 2rem;
+  }
+
+  .text-lg {
+    font-size: 1.125rem;
+  }
+
+  .work-with-me-link {
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+  }
+
+  .p-8 {
+    padding: 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .image-container img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .work-with-me-link {
+    font-size: 1.25rem;
+    padding: 100%;
+  }
+  footer {
+    background-color: transparent;
+    padding: 0.5rem 0;
+  }
+}
