@@ -119,6 +119,10 @@ footer {
     margin: 1rem;
     z-index: 10;
   }
+  
+  .text-2xl{
+    font-size: 1rem;
+  }
 
   .judul {
     margin-top: 4rem;
