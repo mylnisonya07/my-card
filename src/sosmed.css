@@ -18,13 +18,13 @@
   box-shadow: 0 0 15px rgba(255, 0, 144, 0.6); 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .sosmed-container {
     flex-direction: column; 
     align-items: center; 
   }
 
   .sosmed-link {
-    font-size: 5rem;
+    font-size: 2rem;
   }
 }

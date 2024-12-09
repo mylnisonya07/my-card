@@ -119,6 +119,10 @@ footer {
     margin: 1rem;
     z-index: 10;
   }
+  
+  .text-2xl{
+    font-size: 0.5rem;
+  }
 
   .judul {
     margin-top: 4rem;
@@ -133,6 +137,7 @@ footer {
   }
 
   .sosmed-link {
+    font-size: 2rem;
     font-size: 2rem;
   }
 
