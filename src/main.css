@@ -1,7 +1,7 @@
 /* ini styling (main/utama) */
 @font-face {
   font-family: "AbiyuChan";
-  src: url("assets/fonts/AbiyuChan-mLnP5.ttf") format("truetype");
+  src: url("../assets/fonts/AbiyuChan-mLnP5.ttf") format("truetype");
 }
 
 .font-nama {
