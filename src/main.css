@@ -133,15 +133,20 @@ footer {
   }
 
   .sosmed-link {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .text-4xl {
+    font-size: 1.1rem;
+  }
+
+  .text-5xl {
     font-size: 2rem;
   }
 
   .text-lg {
-    font-size: 1.125rem;
+    font-size: 1rem;
+    text-align: center;
   }
 
   .work-with-me-link {
@@ -164,10 +169,6 @@ footer {
     margin: 0 auto;
   }
 
-  .work-with-me-link {
-    font-size: 1.25rem;
-    padding: 100%;
-  }
   footer {
     background-color: transparent;
     padding: 0.5rem 0;
